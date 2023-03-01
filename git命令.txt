@@ -1,0 +1,26 @@
+查看所有的全局变量：git config --list --global 
+查看指定的全局配置项：git config user.name
+git config user.email
+打开命令帮助手册：git help config
+查看文件处于什么状态：git status
+以精简的方式显示文件状态：git status -s
+git status --short
+跟踪一个文件:git add index.html //跟踪之前先clear 下清空终端的缓存
+跟踪之后再查看状态会发现 index.html已被放置暂存区（暂存的是绿色的A，未跟踪的是？？）
+
+提交更新：git commit     
+git commit -m "新建了index.html文件"  //-m 后面表示对提交内容的描述
+（文件则被放到git仓库）
+
+修改已提交的文件：当我们敲完代码保存文件再看 git status
+文件状态时，（出现红色字   modified:index.html）
+git status -s   出现（红色M） （已修改状态）
+如果要把它放到暂存区：git add  (红色变绿色)
+
+
+
+
+
+
+
+
